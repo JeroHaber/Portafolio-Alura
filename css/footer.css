@@ -1,0 +1,13 @@
+/*footeer*/
+.footer {
+    background: #f5f5f5;
+    color: rgb(100, 100, 100);
+    padding: 12px;
+}
+
+.footer__rodape {
+    align-items: flex-end;
+    display: flex;
+    height: 100px;
+    justify-content: center;   
+}

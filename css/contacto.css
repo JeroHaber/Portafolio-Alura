@@ -1,0 +1,135 @@
+/*Contacto*/
+section.formcontato {
+    background: #dfeeee;
+    padding: 50px 20px;
+}
+
+.formcontato__title-conteiner {
+    align-items: center;
+    display: flex;
+    text-align: start;
+}
+
+.formcontato__title {
+    padding: 15px 0;
+}
+
+.fa-phone {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    margin:0 10px;
+}
+
+.fa-phone:hover {
+    background: black;
+    color: white;
+}
+
+.formcontato__text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.formcontato__subtext {
+    padding: 10px 0;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.formcontato__img {
+    display: none;
+}
+
+.formcontato__input {
+    border-radius: 5px;
+    border: none;
+    font-family: 'Raleway';
+    font-size: 16px;
+    height: 56px;
+    margin: 10px 0;
+    padding: 0 0 0 5px;
+    width: 100%;
+}
+
+.formcontato__select {
+    border-radius: 5px;
+    border: none;
+    font-family: 'Raleway';
+    height: 56px;
+    margin: 10px 0;
+    padding: 0 0 0 5px;
+    width: 100%;
+}
+
+.formcontato__textarea {
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    height: 80px;
+    margin: 10px 0;
+    resize: none;
+    padding: 5px 0 0 5px;
+    width: 100%;
+}
+
+.formcontato__botao {
+    background: #150D36;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Raleway';
+    height: 40px;
+    margin: 8px 0;
+    width: 130px;
+}
+
+.input-message-error {
+    display: none;
+    color: #df2525;
+}
+
+.input-container--invalid .input-message-error {
+    color: #df2525;
+    display: block;
+    padding-left: 0.5rem;
+}
+
+@media (min-width: 1100px) {
+    .formcontato {
+        display: flex;
+        justify-content: center;
+    }
+
+    .formcontato__img {
+        align-self: center;
+        display: block;
+        width: 40vw;
+        height: 450px;
+    }
+
+    .formcontato__title {
+        font-size: 32px;
+    }
+
+    .formcontato__contacto {
+        padding:0 30px;
+    }
+
+    .formcontato__input {
+        width: 50vw;
+    }
+
+    .formcontato__select {
+        width: 50.5vw;
+    }
+
+    .formcontato__textarea {
+        width: 50vw;
+    }
+}
