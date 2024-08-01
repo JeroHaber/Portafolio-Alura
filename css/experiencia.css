@@ -38,17 +38,21 @@ section.experience {
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     height: 40px;
     margin: 10px;
     width: 80px;
+}
+
+.experiencia__botao--link {
+    color: black;
 }
 
 .experiencia__botao--demo {
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     height: 40px;
     width: 80px;
 }
@@ -70,7 +74,7 @@ section.experience {
         font-size: 32px;
         margin-bottom: 80px;
     }
-    
+
     .experience__box {
         align-items: center;
         display: flex;

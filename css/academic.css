@@ -19,7 +19,7 @@ section.academic {
 }
 
 .academic__courses__box:hover {
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .academic__courses__item__img {
@@ -43,7 +43,7 @@ section.academic {
     .academic__title {
         font-size: 32px;
     }
-    
+
     .academic__courses {
         justify-content: space-around;
     }
